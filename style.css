@@ -17,11 +17,6 @@
     padding: 10px 10px;
     margin: 50px;
     box-shadow: 0px 0px 50px 5px rgb(19, 209, 231);
-
-    
-}
-.content p{
-
 }
 .container{
     width: 100%;
@@ -29,13 +24,12 @@
     margin: auto;
     background-image: url('images/banner.jpg');
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    backface-visibility: ;
-    
 }
 .search{
     background: transparent;
@@ -44,7 +38,6 @@
     border-radius: 5px;
     box-shadow: 0px 0px 50px 5px rgb(19, 209, 231);
     cursor: pointer;
-
 }
 hr{
     margin-top: 20px;
@@ -55,8 +48,6 @@ figcaption{
 img{
     margin: 20px 0;
     display: block;
-    background: ;
-
 }
 a{
     color: rgb(15, 205, 196);
